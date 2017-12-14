@@ -21,6 +21,7 @@ Enjoy!
 
 * [Rubocop](http://rubocop.readthedocs.io) - A Ruby static code analyzer, based on the community [Ruby style guide](https://github.com/bbatsov/ruby-style-guide).
 * [Guard](http://guardgem.org) - Guard is a command line tool to easily handle events on file system modifications.
+* [RSpec](http://rspec.info) - Behaviour Driven Development for Ruby.
 
 ## Documentation
 

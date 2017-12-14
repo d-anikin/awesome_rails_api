@@ -26,6 +26,8 @@ gem 'puma', '~> 3.7'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # RSpec for Rails-3+ http://relishapp.com/rspec/rspec-rails
+  gem 'rspec-rails', '~> 3.6'
 end
 
 group :development do
@@ -37,6 +39,10 @@ group :development do
   gem 'rubocop', require: false
   # Guard::Bundler automatically install/update your gem bundle when needed https://rubygems.org/gems/guard-bundler
   gem 'guard-bundler', require: false
+  # Guard::RSpec automatically run your specs (much like autotest) https://rubygems.org/gems/guard-rspec
+  gem 'guard-rspec', require: false
+  # Guard plugin for RuboCop
+  gem 'guard-rubocop', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

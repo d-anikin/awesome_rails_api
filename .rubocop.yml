@@ -5,6 +5,7 @@ Documentation:
   Enabled: false
 
 AllCops:
+  TargetRubyVersion: 2.4
   Exclude:
     - 'Rakefile'
     - 'Gemfile'
@@ -14,12 +15,12 @@ AllCops:
     - 'db/schema.rb'
     - 'db/migrate/*'
 
-Style/BlockLength:
-  Exclude:
-    - 'spec/**/*.rb'
-
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
 
 Metrics/LineLength:
   Max: 100

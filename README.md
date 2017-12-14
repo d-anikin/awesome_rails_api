@@ -19,19 +19,8 @@ Enjoy!
 
 ## Features
 
-[Rubocop](http://rubocop.readthedocs.io) - A Ruby static code analyzer, based on the community [Ruby style guide](https://github.com/bbatsov/ruby-style-guide).
-
-## How to create the same app?
-
-```sh
-rails new <APP NAME> --api -C -T -d postgresql
-```
-
-Create `.ruby-version` with the version of ruby (for example `2.4.2`) 
-
-```sh
-echo '2.4.2' >> .ruby-version
-```
+* [Rubocop](http://rubocop.readthedocs.io) - A Ruby static code analyzer, based on the community [Ruby style guide](https://github.com/bbatsov/ruby-style-guide).
+* [Guard](http://guardgem.org) - Guard is a command line tool to easily handle events on file system modifications.
 
 ## Documentation
 

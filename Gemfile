@@ -35,6 +35,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # A Ruby static code analyzer, based on the community Ruby style guide. http://rubocop.readthedocs.io
   gem 'rubocop', require: false
+  # Guard::Bundler automatically install/update your gem bundle when needed https://rubygems.org/gems/guard-bundler
+  gem 'guard-bundler', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -23,11 +23,18 @@ gem 'puma', '~> 3.7'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+# ActiveModel::Serializer implementation and Rails hooks
+gem 'active_model_serializers', '~> 0.10.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # RSpec for Rails-3+ http://relishapp.com/rspec/rspec-rails
   gem 'rspec-rails', '~> 3.6'
+  # https://github.com/thoughtbot/factory_bot
+  gem 'factory_bot_rails'
+  # A library for generating fake data such as names, addresses, and phone numbers.
+  gem 'faker'
 end
 
 group :development do
@@ -43,6 +50,8 @@ group :development do
   gem 'guard-rspec', require: false
   # Guard plugin for RuboCop
   gem 'guard-rubocop', require: false
+  # Annotate Rails classes with schema and routes info
+  gem 'annotate'
 end
 
 group :test do

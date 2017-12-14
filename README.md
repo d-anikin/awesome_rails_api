@@ -22,6 +22,9 @@ Enjoy!
 * [Rubocop](http://rubocop.readthedocs.io) - A Ruby static code analyzer, based on the community [Ruby style guide](https://github.com/bbatsov/ruby-style-guide).
 * [Guard](http://guardgem.org) - Guard is a command line tool to easily handle events on file system modifications.
 * [RSpec](http://rspec.info) - Behaviour Driven Development for Ruby.
+* [ActiveModel::Serializer](https://github.com/rails-api/active_model_serializers)
+* [FactoryBot](https://github.com/thoughtbot/factory_bot) - A library for setting up Ruby objects as test data.
+* [Faker](https://github.com/stympy/faker) A library for generating fake data such as names, addresses, and phone numbers.
 
 ## Documentation
 

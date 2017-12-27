@@ -21,6 +21,7 @@ Style/FrozenStringLiteralComment:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*.rb'
+    - 'lib/tasks/*.rake'
 
 Metrics/LineLength:
   Max: 100
@@ -28,4 +29,3 @@ Metrics/LineLength:
 Metrics/MethodLength:
   CountComments: false
   Max: 20
-

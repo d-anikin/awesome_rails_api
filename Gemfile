@@ -25,6 +25,8 @@ gem 'puma', '~> 3.7'
 
 # ActiveModel::Serializer implementation and Rails hooks
 gem 'active_model_serializers', '~> 0.10.0'
+# Seamlessly adds a Swagger to Rails-based API's
+gem 'rswag'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
